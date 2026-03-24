@@ -17,7 +17,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden !important;
-            /* BUG FIX: Pura tree upar niche hilna band ho jayega */
+            
             height: 100vh;
         }
 
@@ -67,7 +67,7 @@
             <div id="text">
                 <div id="code">
                     <span class="say">Hey you 🙂</span><br>
-                    <span class="say">Happy Birthday 🎂</span><br>
+                    <span class="say">Happy Birthday SHRUTI 🎂</span><br>
                     <span class="say">I don’t say this often but…</span><br>
                     <span class="say">you’re kinda special 💫</span><br>
                     <span class="say">and yeah… a little cute too 😌</span><br>
@@ -196,7 +196,7 @@
 
                 canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
 
-                // BUG FIX: White flash ko Black flash mein badal diya hai
+                
                 canvas.css("background", "#000000");
 
                 $await(Jscex.Async.sleep(300));
